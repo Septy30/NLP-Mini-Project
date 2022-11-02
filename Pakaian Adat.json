@@ -1,0 +1,206 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hallo", "hai", "halo", "hei", "hi", "hy", "pagi", "morning", "siang", "afternoon", "sore", "malam", "bro", "sis", "kawan"],
+      "responses": ["Hai! Kadekbot di sini. Mau tau informasi tentang apa nih?", "Halo! Saya Kadekbot, salam kenal ya! Mau tau tentang kampus merdeka, kan?", "Helo! Ini Kadekbot. Lagi kepo tentang kampus merdeka ya?"]
+    },
+    {
+      "tag": "kadekbot",
+      "patterns": ["Apa itu KadekBot?", "Siapa KadekBot?"],
+      "responses": [
+        "KadekBot adalah aplikasi chatbot informasi tentang Kampus Merdeka yang dimulai dari pelaksanaan, persyaratan dan program yang berada di Kampus Merdeka!",
+        "KadekBot itu adalah teman informasi kamu tentang Kampus Merdeka!"
+      ]
+    },
+    {
+      "tag": "pencipta_kadekbot",
+      "patterns": ["Siapa pembuatmu?", "Kadek, yang buat kamu siapa sih?", "Siapa penciptamu, Kadek?"],
+      "responses": [
+        "KadekBot diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+        "Pembuat KadekBot dari kalangan mahasiswa dan mahasiswi lho!",
+        "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Dah", "Dadah", "Bye", "Byee", "Good bye", "Selamat tinggal", "Sampai jumpa", "Bai", "See you"],
+      "responses": ["Bye!", "Dadahh!", "Good bye!", "Dahh, semoga harimu menyenangkan yaa!", "Sampai jumpa lagi!", "See u! Senang bisa membantu"]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": ["Thanks", "Thank you", "Terima kasih", "Makasih", "Terima kasih banyak"],
+      "responses": ["Dengan senang hati :)", "Sama-sama yaa"]
+    },
+    {
+      "tag": "Nanggroe_Aceh_Darussalam",
+      "patterns": ["Apa nama pakaian adat Nanggroe Aceh Darussalam?"],
+      "responses": ["Nama pakaian adat Nanggroe Aceh Darussalam adalah Ulee Balang."]
+    },
+    {
+      "tag": "Sumatera_Utara",
+      "patterns": ["Apa nama pakaian adat Sumatera Utara?"],
+      "responses": ["Nama pakaian adat Sumatera Utara adalah Ulos."]
+    },
+    {
+      "tag": "Sumatera_Barat",
+      "patterns": ["Apa nama pakaian adat Sumatera Barat?"],
+      "responses": ["Nama pakaian adat Sumatera Barat adalah Bundo Kanduang."]
+    },
+    {
+      "tag": "Riau",
+      "patterns": ["Nama pakaian adat Riau?"],
+      "responses": ["Nama pakaian adat Riau adalah Melayu"]
+    },
+    {
+      "tag": "Kepulauan_Riau",
+      "patterns": ["Apa nama pakaian adat Kepulauan Riau?"],
+      "responses": ["Nama pakaian adat Kepulauan Riau adalah Belanga"]
+    },
+    {
+      "tag": "Jambi",
+      "patterns": ["Apa nama pakaian adat Jambi?"],
+      "responses": ["Nama pakaian adat Riau adalah Melayu"]
+    },
+    {
+      "tag": "Sumatera_Selatan",
+      "patterns": ["Apa nama pakaian adat Sumatera Selatan?"],
+      "responses": ["Nama pakaian adat Sumatera Selatan adalah Aesan Gede"]
+    },
+    {
+      "tag": "Bangka_Belitung",
+      "patterns": ["Apa nama pakaian adat Bangka Belitung?"],
+      "responses": ["Nama pakaian adat Bangka Belitung adalah Paksian"]
+    },
+    {
+      "tag": "Bengkulu",
+      "patterns": ["Apa nama pakaian adat Bengkulu?"],
+      "responses": ["Nama pakaian adat Bengkulu adalah Melayu"]
+    },
+    {
+      "tag": "Lampung",
+      "patterns": ["Apa nama pakaian adat Lampung?"],
+      "responses": ["Nama pakaian adat Lampung adalah Tulang Bawang"]
+    },
+    {
+      "tag": "Banten",
+      "patterns": ["Apa nama pakaian adat Banten?"],
+      "responses": ["Nama pakaian adat Banten adalah Pangsi"]
+    },
+    {
+      "tag": "DKI_Jakarta",
+      "patterns": ["Apa nama pakaian adat DKI Jakarta?"],
+      "responses": ["Nama pakaian adat DKI Jakarta adalah Betawi"]
+    },
+    {
+      "tag": "Jawa_Barat",
+      "patterns": ["Apa nama pakaian adat Jawa Barat?"],
+      "responses": ["Nama pakaian adat Jawa Barat adalah Kebaya"]
+    },
+    {
+      "tag": "Jawa_Tengah",
+      "patterns": ["Apa nama pakaian adat Jawa Tengah?"],
+      "responses": ["Nama pakaian adat Jawa Tengah adalah Kebaya"]
+    },
+    {
+      "tag": "D_I_Yogyakarta",
+      "patterns": ["Apa nama pakaian adat DIY?"],
+      "responses": ["Nama pakaian adat DIY adalah Kesatrian"]
+    },
+    {
+      "tag": "Jawa_Timur",
+      "patterns": ["Apa nama pakaian adat Jawa Timur?"],
+      "responses": ["Nama pakaian adat Jawa Timur adalah Pesa'an"]
+    },
+    {
+      "tag": "Bali",
+      "patterns": ["Apa nama pakaian adat Bali?"],
+      "responses": ["Nama pakaian adat Bali adalah Safari dan Kebaya"]
+    },
+    {
+      "tag": "Nusa_Tenggara_Barat",
+      "patterns": ["Apa nama pakaian adat Nusa Tenggara Barat?"],
+      "responses": ["Nama pakaian adat Nusa Tenggara Barat adalah Baju Adat Suku Sasak"]
+    },
+    {
+      "tag": "Nusa_Tenggara_Timur",
+      "patterns": ["Apa nama pakaian adat Nusa Tenggara Timur?"],
+      "responses": ["Nama pakaian adat Nusa Tenggara Timur adalah Baju Adat Suku Rote"]
+    },
+    {
+      "tag": "Kalimantan_Barat",
+      "patterns": ["Apa nama pakaian adat Kalimantan Barat?"],
+      "responses": ["Nama pakaian adat Kalimantan Barat adalah King Baba"]
+    },
+    {
+      "tag": "Kalimantan_Tengah",
+      "patterns": ["Apa nama pakaian adat Kalimantan Tengah?"],
+      "responses": ["Nama pakaian adat Kalimantan Tengah adalah Upak Nyamu"]
+    },
+    {
+      "tag": "Kalimantan_Selatan",
+      "patterns": ["Apa nama pakaian adat Kalimantan Selatan?"],
+      "responses": ["Nama pakaian adat Kalimantan Selatan adalah Bagajah Gamuling Baular Lulut"]
+    },
+    {
+      "tag": "Kalimantan_Timur",
+      "patterns": ["Apa nama pakaian adat Kalimantan Timur?"],
+      "responses": ["Nama pakaian adat Kalimantan Timur adalah Kustin"]
+    },
+    {
+      "tag": "Kalimantan_Utara",
+      "patterns": ["Apa nama pakaian adat Kalimantan Utara?"],
+      "responses": ["Nama pakaian adat Kalimantan Utara adalah Ta’a dan Sapei Sapaq"]
+    },
+    {
+      "tag": "Sulawesi_Utara",
+      "patterns": ["Apa nama pakaian adat Sulawesi Utara?"],
+      "responses": ["Nama pakaian adat Sulawesi Utara adalah Laku Tepu"]
+    },
+    {
+      "tag": "Sulawesi_Barat",
+      "patterns": ["Apa nama pakaian adat Sulawesi Barat?"],
+      "responses": ["Nama pakaian adat Sulawesi Barat adalah Mandar"]
+    },
+    {
+      "tag": "Sulawesi_Tengah",
+      "patterns": ["Apa nama pakaian adat Sulawesi Tengah?"],
+      "responses": ["Nama pakaian adat Sulawesi Tengah adalah Nggembe"]
+    },
+    {
+      "tag": "Sulawesi_Tenggara",
+      "patterns": ["Apa nama pakaian adat Sulawesi Tenggara?"],
+      "responses": ["Nama pakaian adat Sulawesi Tenggara adalah Tolaki"]
+    },
+    {
+      "tag": "Sulawesi_Selatan",
+      "patterns": ["Apa nama pakaian adat Sulawesi Selatan?"],
+      "responses": ["Nama pakaian adat Sulawesi Selatan adalah Bodo"]
+    },
+    {
+      "tag": "Gorontalo",
+      "patterns": ["Apa nama pakaian adat Gorontalo?"],
+      "responses": ["Nama pakaian adat Gorontalo adalah Biliu dan Makuta"]
+    },
+    {
+      "tag": "Maluku",
+      "patterns": ["Apa nama pakaian adat Maluku?"],
+      "responses": ["Nama pakaian adat Maluku adalah Cele"]
+    },
+    {
+      "tag": "Maluku_Utara",
+      "patterns": ["Apa nama pakaian adat Maluku Utara?"],
+      "responses": ["Nama pakaian adat Maluku Utara adalah Manteren Lamo"]
+    },
+    {
+      "tag": "Papua_Barat",
+      "patterns": ["Apa nama pakaian adat Papua Barat?"],
+      "responses": ["Nama pakaian adat Papua Barat adalah Ewer"]
+    },
+    {
+      "tag": "Papua",
+      "patterns": ["Apa nama pakaian adat Papua?"],
+      "responses": ["Nama pakaian adat Papua adalah Koteka" ]
+    }
+  ]
+}
