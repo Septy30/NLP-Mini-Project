@@ -3,14 +3,14 @@
     {
       "tag": "greeting",
       "patterns": ["hallo", "hai", "halo", "hei", "hi", "hy", "pagi", "morning", "siang", "afternoon", "sore", "malam", "bro", "sis", "kawan"],
-      "responses": ["Hai! Kadekbot di sini. Mau tau informasi tentang apa nih?", "Halo! Saya Kadekbot, salam kenal ya! Mau tau tentang kampus merdeka, kan?", "Helo! Ini Kadekbot. Lagi kepo tentang kampus merdeka ya?"]
+      "responses": ["Hai! Kadekbot di sini. Mau tau informasi tentang apa nih?", "Halo! Saya Kadekbot, salam kenal ya! Mau tau tentang kebudayaan indonesia, kan?", "Helo! Ini Kadekbot. Lagi kepo tentang kebudayaan indonesia ya?"]
     },
     {
       "tag": "kadekbot",
       "patterns": ["Apa itu KadekBot?", "Siapa KadekBot?"],
       "responses": [
-        "KadekBot adalah aplikasi chatbot informasi tentang Kampus Merdeka yang dimulai dari pelaksanaan, persyaratan dan program yang berada di Kampus Merdeka!",
-        "KadekBot itu adalah teman informasi kamu tentang Kampus Merdeka!"
+        "KadekBot adalah aplikasi chatbot informasi tentang kebudayaan indonesia yang membahas tentang rumah adat, lagu daerah, pakaian adat, alat musik, makanan khas, tarian daerah, serta kerajinan daerah!",
+        "KadekBot itu adalah teman informasi kamu tentang kebudayaan indonesia!"
       ]
     },
     {
